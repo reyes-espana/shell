@@ -1,6 +1,6 @@
 require('dotenv').config()
 const {app} = require('./app')
-const { db } = require("./db/config")
+const { db } = require("./src/db/config")
 const PORT = 3000
 
 async function init() {

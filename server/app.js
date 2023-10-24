@@ -3,8 +3,8 @@ const cors = require('cors')
 const logger = require('morgan')
 const path = require('path')
 
-const squadRouter = require('./routes')
-const peopleRouter = require('./routes')
+const squadRouter = require('./src/routes')
+const peopleRouter = require('./src/routes')
 
 const app = express()
 

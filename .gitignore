@@ -10,3 +10,5 @@ dist
 *.sqlite
 main.jsx
 lineup_draft.js
+package-lock.json
+package.json

@@ -3,7 +3,7 @@ const squadRouter = express.Router();
 
 const {Squad} = require('../models')
 const {check, validationResult} = require("express-validator")
-const app = require('../app')
+const app = require('../../app')
 squadRouter.use(express.json())
 
 // GET All Squads
