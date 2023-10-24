@@ -11,8 +11,8 @@ Weapon.belongsTo(Human)
 Squad.hasMany(Character) 
 Character.belongsTo(Squad)
 
-Character.belongsToMany(Skill)
-Skill.belongsToMany(Character)
+// Character.belongsToMany(Skill)
+// Skill.belongsToMany(Character)
 
 //export
 module.exports = {
