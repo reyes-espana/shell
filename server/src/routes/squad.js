@@ -27,9 +27,7 @@ squadRouter.get('/:id', async (req, res, next) => {
 })
 
 // POST a new Squad
-squadRouter.post('/', [
-    check("name").not().isEqual().trim(),
-], async (req, res, next) => {
+squadRouter.post('/', async (req, res, next) => {
     const errors = validationResult(req)
     if (!errors.isEmpty()) {
         res.json({error:errors.array()})

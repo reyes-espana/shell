@@ -283,7 +283,7 @@
     "test": "jest --runInBand --watchAll",
     "start": "parcel client/public/index.html --open",
     "seed": "node server/src/db/seed.js",
-    "dev": "node server/src/run.js"
+    "dev": "node server/run.js"
   },
   "keywords": [],
   "author": "",

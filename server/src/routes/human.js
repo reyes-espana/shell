@@ -3,7 +3,7 @@ const peopleRouter = express.Router();
 
 const {Human} = require('../models')
 const {check, validationResult} = require("express-validator")
-const app = require('../app')
+// const app = require('../app')
 peopleRouter.use(express.json())
 
 // GET all characters

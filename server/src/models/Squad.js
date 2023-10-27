@@ -5,8 +5,7 @@ class Squad extends Model {};
 
 Squad.init({
     name: DataTypes.STRING,
-    location: DataTypes.STRING,
-    active: DataTypes.BOOLEAN
+    location: DataTypes.STRING
 },{
     sequelize: db,
     modelName: "Squad"
